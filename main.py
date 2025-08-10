@@ -1,22 +1,24 @@
-#!/usr/bin/env python3
 import requests
 import datetime
 
 def ping_backend():
-    url = "https://keep-me-alive.org/ping" #replace this url with your backend url & endpoint
+    urls = ["https://hackrx-insurance-app-1.onrender.com",
+            "https://hackrx-insurance-app.onrender.com/api/v1/hackrx/run"
+            ]
     
     try:
-        print(f"{datetime.datetime.now()}: Pinging {url}")
-        response = requests.get(url, timeout=30)
-        print(f"Response: {response.status_code}")
-        
-        if response.status_code == 200:
-            print("Backend is alive")
-        else:
-            print(f"⚠️ Unexpected status code: {response.status_code}")
+        for url in urls:
+            print(f"{datetime.datetime.now()}: Pinging {url}")
+            response = requests.get(url, timeout=30)
+            print(f"Response: {response.status_code}")
+            
+            if response.status_code == 200:
+                print("Backend is alive")
+            else:
+                print(f"⚠️ Unexpected status code: {response.status_code}")
             
     except Exception as e:
         print(f"Error: {e}")
 
 if __name__ == "__main__":
-    ping_backend()  # Just ping once, then exit
+    ping_backend()
