@@ -10,7 +10,8 @@ def ping_backend():
         ("Book Recommender App", "https://book-recommender-app-rs9r.onrender.com"),
         ("Book Recommender App", "https://book-recommender-app2.streamlit.app/"),
         ("GAN Image Generator", "https://gan-image-generator.streamlit.app/"),
-        ("Resume Screening App", "https://resume-screening-app-ppqfi6sscp4vm3nl7tjwko.streamlit.app/")
+        ("Resume Screening App", "https://resume-screening-app-ppqfi6sscp4vm3nl7tjwko.streamlit.app/"),
+        ("Multi-Tool-Agentic-ChatBot","https://multi-tool-agentic-chatbot.onrender.com/")
     ]
     
     for name, url in urls:
