@@ -3,8 +3,8 @@ import datetime
 
 def ping_backend():
     urls = [
-        ("Web App", "https://hackrx-insurance-app-1.onrender.com"),
-        ("API Health", "https://hackrx-insurance-app.onrender.com/health"),
+        ("Web App", "https://docuxment-app-1.onrender.com"),
+        ("API Health", "https://docuxment-app.onrender.com/health"),
         ("Chest Cancer App", "https://chest-cancer-app.onrender.com"),
         ("Stock Prediction App", "https://stock-predictor-app-42bo.onrender.com"),
         ("Book Recommender App", "https://book-recommender-app-rs9r.onrender.com"),
@@ -12,7 +12,7 @@ def ping_backend():
         ("GAN Image Generator", "https://gan-image-generator.streamlit.app/"),
         ("Resume Screening App", "https://resume-screening-app-ppqfi6sscp4vm3nl7tjwko.streamlit.app/"),
         ("Multi-Tool-Agentic-ChatBot","https://multi-tool-agentic-chatbot.onrender.com/"),
-        ("Agentic-Blog-Generator", "https://agentic-blog-generator-qhst.onrender.com/blogs")
+        ("Agentic-Blog-Generator", "https://agentic-blog-generator-2y7k.onrender.com/blogs")
     ]
     
     for name, url in urls:
