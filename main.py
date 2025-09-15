@@ -12,7 +12,8 @@ def ping_backend():
         ("GAN Image Generator", "https://gan-image-generator.streamlit.app/"),
         ("Resume Screening App", "https://resume-screening-app-ppqfi6sscp4vm3nl7tjwko.streamlit.app/"),
         ("Multi-Tool-Agentic-ChatBot","https://multi-tool-agentic-chatbot.onrender.com/"),
-        ("Agentic-Blog-Generator", "https://agentic-blog-generator-2y7k.onrender.com/blogs")
+        ("Agentic-Blog-Generator", "https://agentic-blog-generator-2y7k.onrender.com/blogs"),
+        ("Plant App", "https://plant-diseases-prediction-wy6u.onrender.com/"),
     ]
     
     for name, url in urls:
